@@ -1,0 +1,19 @@
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+.terraform
+terraform.tfstate
+terraform.tfvars
+terraform.log
+
+variables.tf
+
+*.pfx
+*.cer
+plan
+terraform.txt
+./certificate/*

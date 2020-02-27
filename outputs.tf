@@ -1,3 +1,3 @@
-output "public_ip" {
-    value = "${azurerm_public_ip.pip.ip_address}"
+output "rg" {
+    value = "${azurerm_resource_group.rg.id}"
 }
